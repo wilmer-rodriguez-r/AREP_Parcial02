@@ -38,8 +38,8 @@ public class ProxyServer {
             //backendServices.add("http://localhost:4560");
             //backendServices.add("http://localhost:4561");
             //remote
-            backendServices.add("http://ec2-54-210-158-99.compute-1.amazonaws.com");
-            backendServices.add("http://ec2-34-235-162-85.compute-1.amazonaws.com");
+            backendServices.add("http://ec2-54-210-158-99.compute-1.amazonaws.com:4560");
+            backendServices.add("http://ec2-34-235-162-85.compute-1.amazonaws.com:4560");
         }
     }
 
